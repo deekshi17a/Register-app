@@ -4,7 +4,6 @@ pipeline {
         jdk 'java17'
         maven 'maven3'
     }
-    environment {
 	   
     
     stages{
@@ -36,7 +35,4 @@ pipeline {
     }
     }
       
-
-      
-}
 
